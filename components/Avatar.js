@@ -2,8 +2,8 @@ export default function Avatar({size}){
     let width = 'w-12';
     let hight='h-12';
     if(size=='lg'){
-        width='w-36'
-        hight='h-36'
+        width='md:w-36 w-24'
+        hight='h-24 md:h-36'
     }
     return (
         <div className={`${width}  rounded-full overflow-hidden  ${hight && hight}`}>

@@ -2,8 +2,8 @@
 import React, { useState } from 'react'
 import Card from './Card'
 import Avatar from './Avatar'
-import ClickOutHandler from 'react-clickout-handler'
 import Link from 'next/link'
+import ClickOutHandler from 'react-clickout-handler'
 
 export default function PostCard() {
     const [dropDownOpen, setdropDownOpen] = useState(false)
